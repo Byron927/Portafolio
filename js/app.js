@@ -7,6 +7,14 @@ menuIcon.onclick = () => {
   navbar.classList.toggle("active");
 };
 
+//projects button
+document.getElementById("btn-project").addEventListener("click", function() {
+  // Abre el primer enlace en una nueva ventana
+  window.open("https://lacus.vercel.app/", "_blank");
+  // Abre el segundo enlace en otra nueva ventana
+  window.open("https://www.otroejemplo.com", "_blank");
+});
+
 //scroll sections
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header nav a");
