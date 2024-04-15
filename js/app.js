@@ -12,7 +12,7 @@ document.getElementById("btn-project").addEventListener("click", function() {
   // Abre el primer enlace en una nueva ventana
   window.open("https://lacus.vercel.app/", "_blank");
   // Abre el segundo enlace en otra nueva ventana
-  window.open("https://www.otroejemplo.com", "_blank");
+  window.open("https://www.youtube.com/", "_blank");
 });
 
 //scroll sections
